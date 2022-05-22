@@ -30,4 +30,4 @@ randomSymbolGroup = randomSymbolOne + randomSymbolTwo
 randomWord = random.choice(words)
 
 password = str(len(name)) + randomCharacterGroup + randomSymbolGroup + randomWord
-print("Your password is: " + password)
+print(f"Your password is: {password}")
